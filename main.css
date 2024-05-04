@@ -1,0 +1,60 @@
+.shirt-preview-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.shirt-preview {
+    width: 30%;
+    margin: 10px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    transition: opacity 0.3s ease; /* Transition for the hover effect */
+}
+
+.shirt-preview img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.shirt-preview h3 {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.shirt-preview p.price {
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+/* Hover effect */
+.shirt-preview:hover {
+    opacity: 0.9; /* Slightly reduce opacity when hovered */
+}
+
+.control-btn {
+    width: 30px;
+    height: 30px;
+    background-color: #ccc;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.control-btn:hover {
+    opacity: 1;
+}
+
+#frontBtn {
+    left: 10px;
+}
+
+#backBtn {
+    right: 10px;
+}

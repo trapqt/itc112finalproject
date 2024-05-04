@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+        }
+
+        img {
+            max-width: 200px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            line-height: 1.6;
+            margin-bottom: 20px;
+            font-family: 'Roboto', sans-serif;
+	    text-align: justify;
+        }
+        /* Basic styles */
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff; /* Set background color to white */
+        }
+        .topbar {
+            background-color: #333; /* Changed to dark gray */
+            color: #fff; /* Changed text color to white */
+            overflow: hidden;
+            padding: 10px 0;
+            position: relative;
+            display: flex;
+            align-items: center; /* Align items vertically */
+        }
+        .logo {
+            width: 50px; /* Adjust width and height equally for a circle */
+            height: 50px; /* Adjust width and height equally for a circle */
+            border-radius: 50%; /* Make it a circle */
+            margin-right: 10px; /* Adjust margin as needed */
+        }
+        .store-name {
+            color: #fff;
+            font-size: 28px;
+            font-weight: bold;
+            opacity: 0; /* Initially hidden */
+            transition: opacity 1s ease-in-out; /* Changed to 1s */
+        }
+        .store-name.hide {
+            opacity: 0;
+        }
+        .store-name.show {
+            opacity: 1;
+        }
+        .search-container {
+            text-align: center;
+            margin-left: auto; /* Push to the right */
+        }
+        input[type=text] {
+            padding: 8px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+        }
+        .search-container button {
+            padding: 8px 12px;
+            background: #ddd;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .login-register {
+            margin-left: 20px; /* Add margin */
+        }
+        .login-register button {
+            background-color: transparent;
+            border: 1px solid #fff;
+            color: #fff;
+            padding: 8px 16px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .login-register button:hover {
+            background-color: #fff;
+            color: #444;
+        }
+        .navbar {
+            background-color: #444;
+            overflow: hidden;
+            text-align: center;
+            color: #fff;
+            opacity: 100;
+            transition: opacity 0.5s ease; /* transition */
+        }
+        .navbar.show {
+            opacity: 100;
+        }
+        .navbar a {
+            display: inline-block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+            font-size: 18px;
+            opacity: 100;
+            transition: opacity 0.5s ease; /* transition */
+        }
+        .navbar a:hover {
+            background-color: #666;
+            color: white;
+        }
+        /* Additional styles */
+        .section-container {
+            background-color: #fff;
+            padding: 20px;
+            text-align: center;
+            margin-top: 20px; /* Add margin to separate from other content */
+        }
+        .section {
+            display: inline-block;
+            width: 30%;
+            margin: 10px;
+        }
+        .section h3 {
+            margin-bottom: 10px;
+        }
+        .section img {
+            width: 50px; /* Adjust size as needed */
+            height: auto;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+<div class="topbar">
+    <img src="logo.png" alt="Logo" class="logo">
+    <div class="store-name show">Market and Lounge</div>
+    <div class="store-name hide">MNL</div>
+    <div class="search-container">
+        <input type="text" placeholder="Search...">
+        <button type="submit">Search</button>
+    </div>
+    <div class="login-register">
+	<button onclick="window.location.href='logintwo.html'"> Login / Register </button>
+    </div>
+</div>
+
+<div class="navbar">
+    <a href="main.html">Home</a>
+    <a href="shopping.html">Shop Here</a>
+    <a href="#" class="active">About the Shop</a>
+    <a href="creators.html">Creators</a>
+    <a href="faqs.html">FAQs</a>
+</div>
+
+<div class="container">
+    <h1> Know us! </h1>
+    <img src="logo.png" alt="Logo">
+    <p><b> Welcome to MNL, </b> where the energy of Manila meets the pursuit of success. We believe that life is the ultimate adventure, and every step you take is a chance to thrive. Our fashion brand isn't just about apparel; it's a mindset, a lifestyle, and a declaration.
+
+	<b> At MNL, </b> we draw inspiration from the vibrant city of Manila, where hustle and determination blend to create endless possibilities. Life, to us, is like navigating the bustling streets, each corner presenting a new opportunity to shine. Our brand celebrates those who embrace the fast-paced rhythm, take bold steps, and approach life with resilience.
+<br><br>
+	<i> Why MNL? </i> In the heart of Manila, <i> MNL symbolizes more than just a city—it embodies a spirit of hustle, determination, and the courage to chase dreams. </i> It's about turning every challenge into an opportunity and transforming every endeavor into a triumph.
+<br><br>
+	Our clothing reflects this spirit. Each design is meticulously crafted to blend style with the vibrant energy of Manila. From streetwear to statement pieces, MNL offers a collection that resonates with the go-getter in you. Every stitch tells a tale of resilience, and every thread embodies the spirit of someone who doesn't just navigate life but thrives in its whirlwind.
+<br><br>
+	 Here at <b> MARKET N' LOUNGE T-Shirt Clothing, </b> we are passionate about providing comfortable, stylish, and versatile apparel that complements every lifestyle. As a leading selling of t-shirts, we aim to offer a diverse range of designs that cater to various tastes and preferences.
+<br><br>
+	<b> One of our mission is to create high-quality t-shirts that people love to wear.</b> We believe that a great t-shirt is more than just a piece of clothing – it's a statement of individuality and expression. 
+<br><br>
+	Join us on this journey where fashion meets urban adventure, and style becomes a testament to your determination. MNL isn't just a brand; it's a commitment to embrace the hustle, seize opportunities, and emerge victorious in the vibrant tapestry of life. <u> Are you ready to take on the challenge? </u><b> Welcome to MNL, where the pulse of Manila propels you forward.</u></p>
+
+</div>
+</body>
+</html>

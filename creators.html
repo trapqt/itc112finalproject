@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creators</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff; /* Set background color to white */
+}
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .profile-info {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .profile-info h1 {
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+        .profile-info p {
+            font-size: 18px;
+            color: #666;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .gallery img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin: 10px;
+            border: 3px solid #fff;
+            transition: transform 0.3s ease-in-out;
+        }
+        .gallery img:hover {
+            transform: scale(1.1);
+        }
+        .topbar {
+            background-color: #333; /* Changed to dark gray */
+            color: #fff; /* Changed text color to white */
+            overflow: hidden;
+            padding: 10px 0;
+            position: relative;
+            display: flex;
+            align-items: center; /* Align items vertically */
+        }
+        .logo {
+            width: 50px; /* Adjust width and height equally for a circle */
+            height: 50px; /* Adjust width and height equally for a circle */
+            border-radius: 50%; /* Make it a circle */
+            margin-right: 10px; /* Adjust margin as needed */
+        }
+        .store-name {
+            color: #fff;
+            font-size: 28px;
+            font-weight: bold;
+            opacity: 0; /* Initially hidden */
+            transition: opacity 1s ease-in-out; /* Changed to 1s */
+        }
+        .store-name.hide {
+            opacity: 0;
+        }
+        .store-name.show {
+            opacity: 1;
+        }
+        .search-container {
+            text-align: center;
+            margin-left: auto; /* Push to the right */
+        }
+        input[type=text] {
+            padding: 8px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+        }
+        .search-container button {
+            padding: 8px 12px;
+            background: #ddd;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .login-register {
+            margin-left: 20px; /* Add margin */
+        }
+        .login-register button {
+            background-color: transparent;
+            border: 1px solid #fff;
+            color: #fff;
+            padding: 8px 16px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .login-register button:hover {
+            background-color: #fff;
+            color: #444;
+        }
+        .navbar {
+            background-color: #444;
+            overflow: hidden;
+            text-align: center;
+            color: #fff;
+            opacity: 100;
+            transition: opacity 0.5s ease; /* transition */
+        }
+        .navbar.show {
+            opacity: 100;
+        }
+        .navbar a {
+            display: inline-block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+            font-size: 18px;
+            opacity: 100;
+            transition: opacity 0.5s ease; /* transition */
+        }
+        .navbar a:hover {
+            background-color: #666;
+            color: white;
+        }
+        /* Additional styles */
+        .section-container {
+            background-color: #fff;
+            padding: 20px;
+            text-align: center;
+            margin-top: 20px; /* Add margin to separate from other content */
+        }
+        .section {
+            display: inline-block;
+            width: 30%;
+            margin: 10px;
+        }
+        .section h3 {
+            margin-bottom: 10px;
+        }
+        .section img {
+            width: 50px; /* Adjust size as needed */
+            height: auto;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+<div class="topbar">
+    <img src="logo.png" alt="Logo" class="logo">
+    <div class="store-name show">Market and Lounge</div>
+    <div class="store-name hide">MNL</div>
+    <div class="search-container">
+        <input type="text" placeholder="Search...">
+        <button type="submit">Search</button>
+    </div>
+    <div class="login-register">
+	<button onclick="window.location.href='logintwo.html'"> Login / Register </button>
+    </div>
+</div>
+
+<div class="navbar">
+    <a href="main.html">Home</a>
+    <a href="shopping.html">Shop Here</a>
+    <a href="about.html">About the Shop</a>
+    <a href="#" class="active">Creators</a>
+    <a href="faqs.html">FAQs</a>
+</div>
+    <div class="container">
+        <div class="profile-info">
+            <h1> MNL Street Wear | Designer | Creator  </h1>
+            <p> BSIT Students | Web Design </p>
+        </div>
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="raneses.JPG" alt="Profile Picture">
+                <p> Leader, </p>
+                <p> Rañeses, Chary. </p>
+            </div>
+
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="borra.JPG" alt="Profile Picture">
+                <p> Member 1, </p>
+                <p> Borra, Johnwayne. </p>
+            </div>
+
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="santos.JPG" alt="Profile Picture">
+                <p> Member 2, </p>
+                <p> Santos, Chester. </p>
+            </div>
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="somblingo.JPG" alt="Profile Picture">
+                <p> Member 3, </p>
+                <p> Somblingo, Jonas. </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
